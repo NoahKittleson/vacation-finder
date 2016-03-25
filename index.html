@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>page</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="survey">
+        <h3>What is your prefered mode of transportation?</h3>
+        <select class="form-control" id="transportation">
+          <option>Select One</option>
+          <option value="sumatra">Airplane</option>
+          <option value="patagonia">Car or Train</option>
+          <option value="iceland">Boat</option>
+          <option value="none">No Preference</option>
+        </select>
+
+        <h3>What temperature do you like it?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="temperature" value="sumatra">
+            I like it HOT!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="temperature" value="iceland">
+            I prefer the cold.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="temperature" value="patagonia">
+            Temperate, please.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="temperature" value="none">
+            No Preference
+          </label>
+        </div>
+        <input class="btn btn-default" type="submit" value="Submit">
+      </form>
+      <div class="output">
+
+      </div>
+    </div>
+  </body>
+</html>
