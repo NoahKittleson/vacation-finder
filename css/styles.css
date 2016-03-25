@@ -1,9 +1,12 @@
 body {
-  background-color: yellow;
+  background-color: #dbdbda;
+}
+.form-control {
+  width: 50%;
 }
 
 .result {
-  display: none;
+  /*display: none;*/
   margin: 10px;
 }
 
@@ -14,16 +17,17 @@ body {
   padding: 10px;
 }
 
-
-
 .sumatra  .jumbotron {
   background-color: #b7cca7;
+  border: 3px solid black;
 }
 
 .iceland .jumbotron {
   background-color: #c6d0d4;
+  border: 3px solid black;
 }
 
 .patagonia .jumbotron {
   background-color: #ffdada;
+  border: 3px solid black;
 }

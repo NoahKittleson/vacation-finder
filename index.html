@@ -10,76 +10,82 @@
   <body>
     <div class="container">
       <form id="survey">
-        <!-- Question One -->
-        <h3>What is your prefered mode of transportation?</h3>
-        <select class="form-control" id="transportation">
-          <option value="">Select One</option>
-          <option value="sumatra">Airplane</option>
-          <option value="patagonia">Car or Train</option>
-          <option value="iceland">Boat</option>
-          <option value="none">No Preference</option>
-        </select>
-        <!-- Question Two -->
-        <h3>What temperature do you like it?</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="temperature" value="sumatra">
-            I like it HOT!
-          </label>
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Question One -->
+            <h3>What is your prefered mode of transportation?</h3>
+            <select class="form-control" id="transportation">
+              <option value="">Select One</option>
+              <option value="sumatra">Airplane</option>
+              <option value="patagonia">Car or Train</option>
+              <option value="iceland">Boat</option>
+              <option value="none">No Preference</option>
+            </select>
+            <!-- Question Two -->
+            <h3>What temperature do you like it?</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="temperature" value="sumatra">
+                I like it HOT!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="temperature" value="iceland">
+                I prefer the cold.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="temperature" value="patagonia">
+                Temperate, please.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="temperature" value="none">
+                No Preference
+              </label>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <!-- Question Three -->
+            <h3>What is favorite kind of sandwich?</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="sandwich" value="sumatra">
+                Bologne
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="sandwich" value="patagonia">
+                BLT
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="sandwich" value="iceland">
+                Peanut Butter and Jelly
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="sandwich" value="none">
+                I don't like sandwiches...
+              </label>
+            </div>
+            <!-- Question Four -->
+            <h3>What are you looking to do on vacation?</h3>
+            <select class="form-control" id="events">
+              <option>Select One</option>
+              <option value="patagonia">Relax</option>
+              <option value="iceland">Go to Museums</option>
+              <option value="sumatra">Meet New People</option>
+              <option value="none">No Preference</option>
+            </select>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="temperature" value="iceland">
-            I prefer the cold.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="temperature" value="patagonia">
-            Temperate, please.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="temperature" value="none">
-            No Preference
-          </label>
-        </div>
-        <!-- Question Three -->
-        <h3>What is favorite kind of sandwich?</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="sandwich" value="sumatra">
-            Bologne
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="sandwich" value="patagonia">
-            BLT
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="sandwich" value="iceland">
-            Peanut Butter and Jelly
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="sandwich" value="none">
-            I don't like sandwiches...
-          </label>
-        </div>
-        <!-- Question Four -->
-        <h3>What are you looking to do on vacation?</h3>
-        <select class="form-control" id="events">
-          <option>Select One</option>
-          <option value="patagonia">Relax</option>
-          <option value="iceland">Go to Museums</option>
-          <option value="sumatra">Meet New People</option>
-          <option value="none">No Preference</option>
-        </select>
         <!-- Question Five -->
         <h3>When would you like to depart?</h3>
         <div class="form-group">
