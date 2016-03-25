@@ -26,9 +26,13 @@ $(document).ready(function() {
     var result6 = $("#name").val();
     addScore(result6);
     if (!result1 || !result2 || !result3 || !result4 || !result5 || !result6) {
-      alert("BAD INPUT")
+      alert("BAD INPUT! Remember to fill ALL fields.")
     } else {
       // If input is good, print any nation that got 2 or more "score"
+      $(".message").show();
+      $(".name").text(result6);
+      $(".time").text(result5);
+
       if (icelandScore >= 2) {
         $(".iceland").show();
       } else {
@@ -44,14 +48,6 @@ $(document).ready(function() {
       } else {
         $(".patagonia").hide();
       }
-
-      // This is just for testing purposes, DELETE ME LATER!!!
-      $(".output").append(result1 + "\n");
-      $(".output").append(result2 + "\n");
-      $(".output").append(result3 + "\n");
-      $(".output").append(result4 + "\n");
-      $(".output").append(result5 + "\n");
-      $(".output").append(result6 + "\n");
     }
   })
 });
