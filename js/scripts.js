@@ -31,12 +31,18 @@ $(document).ready(function() {
       // If input is good, print any nation that got 2 or more "score"
       if (icelandScore >= 2) {
         $(".iceland").show();
+      } else {
+        $(".iceland").hide();
       }
       if (sumatraScore >= 2) {
         $(".sumatra").show();
+      } else {
+        $(".sumatra").hide();
       }
       if (patagoniaScore >= 2) {
         $(".patagonia").show();
+      } else {
+        $(".patagonia").hide();
       }
 
       // This is just for testing purposes, DELETE ME LATER!!!

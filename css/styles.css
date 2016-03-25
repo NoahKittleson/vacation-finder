@@ -2,14 +2,28 @@ body {
   background-color: yellow;
 }
 
-.sumatra {
+.result {
   display: none;
+  margin: 10px;
 }
 
-.iceland {
-  display: none;
+.result img {
+  float: left;
+  width: 50%;
+  height: auto;
+  padding: 10px;
 }
 
-.patagonia {
-  display: none;
+
+
+.sumatra  .jumbotron {
+  background-color: #b7cca7;
+}
+
+.iceland .jumbotron {
+  background-color: #c6d0d4;
+}
+
+.patagonia .jumbotron {
+  background-color: #ffdada;
 }
